@@ -1,0 +1,37 @@
+
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "text-to-sql-hybrid"
+version = "0.1.0"
+description = "Um sistema híbrido com MLP e LLM para converter linguagem natural em SQL."
+authors = [
+    {name = "Rafael da Silva Marques", email = "rdasilvafullstack@icloud.com"},
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+SQLAlchemy = "^2.0.30"
+Faker = "^37.4.0"
+scikit-learn = "^1.5.0"
+pandas = "^2.2.2"
+joblib = "^1.4.2"
+python-dotenv = "^1.0.1"
+openai = "^1.35.3"
+seaborn = "^0.13.2"
+requests = "^2.32.4"
+setuptools = "^80.9.0"
+wheel = "^0.45.1"
+mcp = {version = "^1.9.4", extras = ["cli"]}
+spacy = "^3.8.7"
+pytest-asyncio = "^1.0.0"
+pytest = "^8.4.1"
+pytest-mock = "^3.14.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+

@@ -1,0 +1,406 @@
+question,intent
+"qual o total de carros da marca Ford?",COUNT
+"me informe a contagem de carros da Chevrolet no pátio",COUNT
+"quantos carros Volkswagen estão em estoque?",COUNT
+"diga-me o número de carros da Nissan",COUNT
+"qual a quantidade de veículos da Hyundai?",COUNT
+"liste todos os carros com motor 1.0",LIST_ALL
+"mostre-me os carros que são da categoria Hatchback",LIST_ALL
+"exiba todos os carros com câmbio manual",LIST_ALL
+"quais carros são movidos a Etanol?",LIST_ALL
+"liste todos os veículos de cor cinza",LIST_ALL
+"qual o carro com o motor de menor cilindrada?",FIND_MIN
+"encontre o veículo com a potência de motor mais baixa",FIND_MIN
+"qual carro tem o menor torque de motor?",FIND_MIN
+"mostre-me o carro com a menor potência em cavalos",FIND_MIN
+"identifique o veículo com o motor menos potente",FIND_MIN
+"qual a média de potência dos carros da Mercedes-Benz?",CALC_AVG
+"calcule a média de quilometragem dos carros da Audi",CALC_AVG
+"qual o consumo médio de combustível dos carros da Fiat?",CALC_AVG
+"diga-me a média de assentos dos carros da Toyota",CALC_AVG
+"qual a média de portas dos veículos da Ford?",CALC_AVG
+"qual o carro com o motor mais potente do inventário?",FIND_MAX
+"encontre o veículo com a maior cavalaria de motor",FIND_MAX
+"qual carro tem o motor com maior torque?",FIND_MAX
+"mostre o carro com a maior cilindrada de motor",FIND_MAX
+"identifique o veículo com o motor mais forte",FIND_MAX
+"agrupe os carros por ano de fabricação e conte-os",GROUP_COUNT
+"qual a distribuição de carros por número de cilindros do motor?",GROUP_COUNT
+"mostre a contagem de carros por tipo de tração",GROUP_COUNT
+"para cada categoria, qual o número de carros?",GROUP_COUNT
+"agrupe por fabricante e mostre a quantidade",GROUP_COUNT
+"qual o carro com o maior número de quilômetros rodados?",FIND_MAX_MILEAGE
+"encontre o veículo que mais viajou em distância",FIND_MAX_MILEAGE
+"qual carro tem a maior marcação no odômetro?",FIND_MAX_MILEAGE
+"mostre-me o carro com a quilometragem mais extensa",FIND_MAX_MILEAGE
+"identifique o veículo mais rodado do estoque",FIND_MAX_MILEAGE
+"qual o carro com o menor número de quilômetros rodados?",FIND_MIN_MILEAGE
+"encontre o veículo que menos viajou em distância",FIND_MIN_MILEAGE
+"qual carro tem a menor marcação no odômetro?",FIND_MIN_MILEAGE
+"mostre-me o carro com a quilometragem mais curta",FIND_MIN_MILEAGE
+"identifique o veículo menos rodado do estoque",FIND_MIN_MILEAGE
+"some a potência de todos os carros da Honda",CALC_SUM
+"calcule o total de quilômetros de todos os carros da BMW",CALC_SUM
+"qual a soma de portas de todos os veículos?",CALC_SUM
+"dê-me a soma total de assentos de todos os carros",CALC_SUM
+"some os valores de potência de todos os motores",CALC_SUM
+"quantos carros elétricos temos em estoque?",COUNT
+"conte o número de carros de cor branca",COUNT
+"qual a quantidade de carros de 4 portas?",COUNT
+"diga-me quantos carros são da categoria Sedan",COUNT
+"número de carros com transmissão manual?",COUNT
+"liste todos os carros de marca Fiat",LIST_ALL
+"mostre-me todos os carros com ar condicionado",LIST_ALL
+"exiba os carros da marca BMW",LIST_ALL
+"quais carros têm vidros elétricos?",LIST_ALL
+"liste os veículos com direção elétrica",LIST_ALL
+"qual o carro com a menor potência de motor no inventário?",FIND_MIN
+"encontre o carro com o motor de menor capacidade",FIND_MIN
+"qual veículo tem o motor menos potente?",FIND_MIN
+"mostre o carro com a potência mais baixa",FIND_MIN
+"identifique o carro com o motor mais fraco",FIND_MIN
+"qual a média de potência dos carros de 4 portas?",CALC_AVG
+"calcule a média de quilometragem dos carros de cor preta",CALC_AVG
+"qual o consumo médio dos carros automáticos?",CALC_AVG
+"diga-me a média de potência dos carros a gasolina",CALC_AVG
+"qual a média de assentos dos carros da Chevrolet?",CALC_AVG
+"qual o carro com a maior potência de motor disponível?",FIND_MAX
+"encontre o veículo com a maior capacidade de motor",FIND_MAX
+"qual carro tem o motor mais potente?",FIND_MAX
+"mostre o carro com a potência mais alta",FIND_MAX
+"identifique o carro com o motor mais forte",FIND_MAX
+"agrupe por cor e conte a quantidade de carros",GROUP_COUNT
+"qual a contagem de carros por tipo de direção?",GROUP_COUNT
+"mostre a distribuição de carros por número de portas",GROUP_COUNT
+"para cada marca, quantos modelos diferentes existem?",GROUP_COUNT
+"agrupe por categoria e mostre a contagem",GROUP_COUNT
+"qual o carro com a quilometragem mais alta registrada?",FIND_MAX_MILEAGE
+"encontre o veículo com a maior distância percorrida",FIND_MAX_MILEAGE
+"qual carro tem a maior leitura no odômetro?",FIND_MAX_MILEAGE
+"mostre o carro mais viajado do pátio",FIND_MAX_MILEAGE
+"identifique o veículo com mais quilômetros rodados",FIND_MAX_MILEAGE
+"qual o carro com a quilometragem mais baixa registrada?",FIND_MIN_MILEAGE
+"encontre o veículo com a menor distância percorrida",FIND_MIN_MILEAGE
+"qual carro tem a menor leitura no odômetro?",FIND_MIN_MILEAGE
+"mostre o carro menos viajado do pátio",FIND_MIN_MILEAGE
+"identifique o veículo com menos quilômetros rodados",FIND_MIN_MILEAGE
+"some a quilometragem de todos os carros da Ford",CALC_SUM
+"calcule o total de potência de todos os carros da Chevrolet",CALC_SUM
+"qual a soma de portas dos carros da Volkswagen?",CALC_SUM
+"dê-me a soma total de assentos dos carros da Nissan",CALC_SUM
+"some os valores de quilometragem de todos os veículos",CALC_SUM
+"quantos carros são da categoria SUV?",COUNT
+"conte os carros de cor azul",COUNT
+"qual a quantidade de carros com 2 portas?",COUNT
+"diga-me quantos carros são híbridos",COUNT
+"número de carros com direção mecânica?",COUNT
+"liste todos os carros da marca Volkswagen",LIST_ALL
+"mostre-me os carros sem ar condicionado",LIST_ALL
+"exiba os carros da marca Honda",LIST_ALL
+"quais carros não têm vidros elétricos?",LIST_ALL
+"liste os veículos com direção hidráulica",LIST_ALL
+"qual o carro com a menor potência de motor em nosso estoque?",FIND_MIN
+"encontre o carro com a especificação de motor mais baixa",FIND_MIN
+"qual veículo tem a menor potência de motor?",FIND_MIN
+"mostre o carro com a menor força de motor",FIND_MIN
+"identifique o carro com a menor potência",FIND_MIN
+"qual a média de potência dos carros de 2 portas?",CALC_AVG
+"calcule a média de quilometragem dos carros de cor branca",CALC_AVG
+"qual o consumo médio dos carros manuais?",CALC_AVG
+"diga-me a média de potência dos carros a etanol",CALC_AVG
+"qual a média de assentos dos carros da Fiat?",CALC_AVG
+"qual o carro com a maior potência de motor em nosso estoque?",FIND_MAX
+"encontre o carro com a especificação de motor mais alta",FIND_MAX
+"qual veículo tem a maior potência de motor?",FIND_MAX
+"mostre o carro com a maior força de motor",FIND_MAX
+"identifique o carro com a maior potência",FIND_MAX
+"agrupe por ano e conte a quantidade de carros",GROUP_COUNT
+"qual a contagem de carros por tipo de tração?",GROUP_COUNT
+"mostre a distribuição de carros por número de cilindros",GROUP_COUNT
+"para cada fabricante, quantos carros existem?",GROUP_COUNT
+"agrupe por modelo e mostre a contagem",GROUP_COUNT
+"qual o carro com a quilometragem mais alta do inventário?",FIND_MAX_MILEAGE
+"encontre o veículo que rodou a maior distância",FIND_MAX_MILEAGE
+"qual carro tem a maior quilometragem?",FIND_MAX_MILEAGE
+"mostre o carro mais usado",FIND_MAX_MILEAGE
+"identifique o veículo com a quilometragem máxima",FIND_MAX_MILEAGE
+"qual o carro com a quilometragem mais baixa do inventário?",FIND_MIN_MILEAGE
+"encontre o veículo que rodou a menor distância",FIND_MIN_MILEAGE
+"qual carro tem a menor quilometragem?",FIND_MIN_MILEAGE
+"mostre o carro menos usado",FIND_MIN_MILEAGE
+"identifique o veículo com a quilometragem mínima",FIND_MIN_MILEAGE
+"some a quilometragem de todos os carros da Volkswagen",CALC_SUM
+"calcule o total de potência de todos os carros da Honda",CALC_SUM
+"qual a soma de portas dos carros da Toyota?",CALC_SUM
+"dê-me a soma total de assentos dos carros da BMW",CALC_SUM
+"some os valores de potência de todos os veículos",CALC_SUM
+"quantos carros são da categoria Picape?",COUNT
+"conte os carros de cor verde",COUNT
+"qual a quantidade de carros com 5 assentos?",COUNT
+"diga-me quantos carros são a gasolina",COUNT
+"número de carros com teto solar?",COUNT
+"liste todos os carros da marca Audi",LIST_ALL
+"mostre-me os carros com tração 4x4",LIST_ALL
+"exiba os carros da marca Mercedes-Benz",LIST_ALL
+"quais carros têm central multimídia?",LIST_ALL
+"liste os veículos com motor turbo",LIST_ALL
+"qual o carro com a menor potência de motor que temos?",FIND_MIN
+"encontre o carro com o motor mais fraco do pátio",FIND_MIN
+"qual veículo tem a potência de motor mínima?",FIND_MIN
+"mostre o carro com a potência mais modesta",FIND_MIN
+"identifique o carro de menor potência",FIND_MIN
+"qual a média de potência dos carros da categoria Picape?",CALC_AVG
+"calcule a média de quilometragem dos carros de cor verde",CALC_AVG
+"qual o consumo médio dos carros com motor turbo?",CALC_AVG
+"diga-me a média de potência dos carros híbridos",CALC_AVG
+"qual a média de assentos dos carros da Volkswagen?",CALC_AVG
+"qual o carro com a maior potência de motor que temos?",FIND_MAX
+"encontre o carro com o motor mais forte do pátio",FIND_MAX
+"qual veículo tem a potência de motor máxima?",FIND_MAX
+"mostre o carro com a potência mais impressionante",FIND_MAX
+"identifique o carro de maior potência",FIND_MAX
+"agrupe por tipo de combustível e conte a quantidade",GROUP_COUNT
+"qual a contagem de carros por cor e marca?",GROUP_COUNT
+"mostre a distribuição de carros por ano de fabricação",GROUP_COUNT
+"para cada modelo, quantos carros existem?",GROUP_COUNT
+"agrupe por tipo de câmbio e mostre a contagem",GROUP_COUNT
+"qual o carro com a quilometragem mais alta que já tivemos?",FIND_MAX_MILEAGE
+"encontre o veículo com a maior quilometragem de todos",FIND_MAX_MILEAGE
+"qual carro tem o odômetro mais alto?",FIND_MAX_MILEAGE
+"mostre o carro mais rodado de todos",FIND_MAX_MILEAGE
+"identifique o veículo com a maior quilometragem",FIND_MAX_MILEAGE
+"qual o carro com a quilometragem mais baixa que já tivemos?",FIND_MIN_MILEAGE
+"encontre o veículo com a menor quilometragem de todos",FIND_MIN_MILEAGE
+"qual carro tem o odômetro mais baixo?",FIND_MIN_MILEAGE
+"mostre o carro menos rodado de todos",FIND_MIN_MILEAGE
+"identifique o veículo com a menor quilometragem",FIND_MIN_MILEAGE
+"some a quilometragem de todos os carros da Audi",CALC_SUM
+"calcule o total de potência de todos os carros da Mercedes-Benz",CALC_SUM
+"qual a soma de portas dos carros da Fiat?",CALC_SUM
+"dê-me a soma total de assentos dos carros da Honda",CALC_SUM
+"some os valores de potência de todos os carros turbo",CALC_SUM
+"quantos carros são da categoria Coupé?",COUNT
+"conte os carros de cor laranja",COUNT
+"qual a quantidade de carros com 7 assentos?",COUNT
+"diga-me quantos carros são flex",COUNT
+"número de carros com piloto automático?",COUNT
+"liste todos os carros da marca Hyundai",LIST_ALL
+"mostre-me os carros com bancos de couro",LIST_ALL
+"exiba os carros da marca Kia",LIST_ALL
+"quais carros têm sensor de estacionamento?",LIST_ALL
+"liste os veículos com motor V6",LIST_ALL
+"qual o carro com a menor potência de motor do nosso catálogo?",FIND_MIN
+"encontre o carro com o motor menos potente de todos",FIND_MIN
+"qual veículo tem a menor especificação de potência?",FIND_MIN
+"mostre o carro com a potência de motor mais baixa",FIND_MIN
+"identifique o carro com a menor força",FIND_MIN
+"qual a média de potência dos carros da categoria Coupé?",CALC_AVG
+"calcule a média de quilometragem dos carros de cor laranja",CALC_AVG
+"qual o consumo médio dos carros com motor V6?",CALC_AVG
+"diga-me a média de potência dos carros flex",CALC_AVG
+"qual a média de assentos dos carros da Hyundai?",CALC_AVG
+"qual o carro com a maior potência de motor do nosso catálogo?",FIND_MAX
+"encontre o carro com o motor mais potente de todos",FIND_MAX
+"qual veículo tem a maior especificação de potência?",FIND_MAX
+"mostre o carro com a potência de motor mais alta",FIND_MAX
+"identifique o carro com a maior força",FIND_MAX
+"agrupe por tipo de carroceria e conte a quantidade",GROUP_COUNT
+"qual a contagem de carros por marca e ano?",GROUP_COUNT
+"mostre a distribuição de carros por cor",GROUP_COUNT
+"para cada tipo de motor, quantos carros existem?",GROUP_COUNT
+"agrupe por número de portas e mostre a contagem",GROUP_COUNT
+"qual o carro com a quilometragem mais alta em nosso registro?",FIND_MAX_MILEAGE
+"encontre o veículo com a maior quilometragem já registrada",FIND_MAX_MILEAGE
+"qual carro tem o maior odômetro?",FIND_MAX_MILEAGE
+"mostre o carro mais percorrido",FIND_MAX_MILEAGE
+"identifique o veículo com o maior registro de quilometragem",FIND_MAX_MILEAGE
+"qual o carro com a quilometragem mais baixa em nosso registro?",FIND_MIN_MILEAGE
+"encontre o veículo com a menor quilometragem já registrada",FIND_MIN_MILEAGE
+"qual carro tem o menor odômetro?",FIND_MIN_MILEAGE
+"mostre o carro menos percorrido",FIND_MIN_MILEAGE
+"identifique o veículo com o menor registro de quilometragem",FIND_MIN_MILEAGE
+"some a quilometragem de todos os carros da Hyundai",CALC_SUM
+"calcule o total de potência de todos os carros da Kia",CALC_SUM
+"qual a soma de portas dos carros da Audi?",CALC_SUM
+"dê-me a soma total de assentos dos carros da Mercedes-Benz",CALC_SUM
+"some os valores de potência de todos os carros V6",CALC_SUM
+"quantos carros são da categoria Minivan?",COUNT
+"conte os carros de cor roxa",COUNT
+"qual a quantidade de carros com 6 assentos?",COUNT
+"diga-me quantos carros são importados",COUNT
+"número de carros com câmera de ré?",COUNT
+"liste todos os carros da marca Peugeot",LIST_ALL
+"mostre-me os carros com teto panorâmico",LIST_ALL
+"exiba os carros da marca Renault",LIST_ALL
+"quais carros têm sistema de navegação GPS?",LIST_ALL
+"liste os veículos com motor 1.6 turbo",LIST_ALL
+"qual o carro com a menor potência de motor em todo o estoque?",FIND_MIN
+"encontre o carro menos potente que temos",FIND_MIN
+"qual veículo tem a menor potência?",FIND_MIN
+"mostre o carro com o motor mais simples",FIND_MIN
+"identifique o carro de menor performance de motor",FIND_MIN
+"qual a média de potência dos carros da categoria Minivan?",CALC_AVG
+"calcule a média de quilometragem dos carros de cor roxa",CALC_AVG
+"qual o consumo médio dos carros com motor 1.6 turbo?",CALC_AVG
+"diga-me a média de potência dos carros importados",CALC_AVG
+"qual a média de assentos dos carros da Peugeot?",CALC_AVG
+"qual o carro com a maior potência de motor em todo o estoque?",FIND_MAX
+"encontre o carro mais potente que temos",FIND_MAX
+"qual veículo tem a maior potência?",FIND_MAX
+"mostre o carro com o motor mais robusto",FIND_MAX
+"identifique o carro de maior performance de motor",FIND_MAX
+"agrupe por país de origem e conte a quantidade",GROUP_COUNT
+"qual a contagem de carros por ano e mês de fabricação?",GROUP_COUNT
+"mostre a distribuição de carros por faixa de preço",GROUP_COUNT
+"para cada cor, quantos carros de cada marca existem?",GROUP_COUNT
+"agrupe por tipo de freio e mostre a contagem",GROUP_COUNT
+"qual o carro com a quilometragem mais alta de todos os tempos?",FIND_MAX_MILEAGE
+"encontre o veículo com a maior quilometragem de todos",FIND_MAX_MILEAGE
+"qual carro tem a maior quilometragem já vista?",FIND_MAX_MILEAGE
+"mostre o carro mais rodado que já passou por aqui",FIND_MAX_MILEAGE
+"identifique o veículo com a quilometragem mais extrema",FIND_MAX_MILEAGE
+"qual o carro com a quilometragem mais baixa de todos os tempos?",FIND_MIN_MILEAGE
+"encontre o veículo com a menor quilometragem de todos",FIND_MIN_MILEAGE
+"qual carro tem a menor quilometragem já vista?",FIND_MIN_MILEAGE
+"mostre o carro menos rodado que já passou por aqui",FIND_MIN_MILEAGE
+"identifique o veículo com a quilometragem mais insignificante",FIND_MIN_MILEAGE
+"some a quilometragem de todos os carros da Peugeot",CALC_SUM
+"calcule o total de potência de todos os carros da Renault",CALC_SUM
+"qual a soma de portas dos carros da Hyundai?",CALC_SUM
+"dê-me a soma total de assentos dos carros da Kia",CALC_SUM
+"some os valores de potência de todos os carros 1.6 turbo",CALC_SUM
+"quantos carros são da categoria Van?",COUNT
+"conte os carros de cor dourada",COUNT
+"qual a quantidade de carros com 8 assentos ou mais?",COUNT
+"diga-me quantos carros são nacionais",COUNT
+"número de carros com alerta de ponto cego?",COUNT
+"liste todos os carros da marca Citroën",LIST_ALL
+"mostre-me os carros com assentos aquecidos",LIST_ALL
+"exiba os carros da marca JAC",LIST_ALL
+"quais carros têm assistente de permanência em faixa?",LIST_ALL
+"liste os veículos com motor 2.0 turbo",LIST_ALL
+"qual o carro com a menor potência de motor que já vendemos?",FIND_MIN
+"encontre o carro com a menor potência já registrada",FIND_MIN
+"qual veículo tem a menor potência histórica?",FIND_MIN
+"mostre o carro com a menor potência de todos",FIND_MIN
+"identifique o carro com a menor potência já vista",FIND_MIN
+"qual a média de potência dos carros da categoria Van?",CALC_AVG
+"calcule a média de quilometragem dos carros de cor dourada",CALC_AVG
+"qual o consumo médio dos carros com motor 2.0 turbo?",CALC_AVG
+"diga-me a média de potência dos carros nacionais",CALC_AVG
+"qual a média de assentos dos carros da Citroën?",CALC_AVG
+"qual o carro com a maior potência de motor que já vendemos?",FIND_MAX
+"encontre o carro com a maior potência já registrada",FIND_MAX
+"qual veículo tem a maior potência histórica?",FIND_MAX
+"mostre o carro com a maior potência de todos",FIND_MAX
+"identifique o carro com a maior potência já vista",FIND_MAX
+"agrupe por tipo de suspensão e conte a quantidade",GROUP_COUNT
+"qual a contagem de carros por faixa de quilometragem?",GROUP_COUNT
+"mostre a distribuição de carros por tipo de pneu",GROUP_COUNT
+"para cada ano, quantos carros de cada cor foram fabricados?",GROUP_COUNT
+"agrupe por tipo de seguro e mostre a contagem",GROUP_COUNT
+"qual o carro com a quilometragem mais alta que temos atualmente?",FIND_MAX_MILEAGE
+"encontre o veículo com a maior quilometragem em nosso estoque",FIND_MAX_MILEAGE
+"qual carro tem o odômetro mais alto no pátio?",FIND_MAX_MILEAGE
+"mostre o carro mais rodado que temos para venda",FIND_MAX_MILEAGE
+"identifique o veículo com a maior quilometragem disponível",FIND_MAX_MILEAGE
+"qual o carro com a quilometragem mais baixa que temos atualmente?",FIND_MIN_MILEAGE
+"encontre o veículo com a menor quilometragem em nosso estoque",FIND_MIN_MILEAGE
+"qual carro tem o odômetro mais baixo no pátio?",FIND_MIN_MILEAGE
+"mostre o carro menos rodado que temos para venda",FIND_MIN_MILEAGE
+"identifique o veículo com a menor quilometragem disponível",FIND_MIN_MILEAGE
+"some a quilometragem de todos os carros da Citroën",CALC_SUM
+"calcule o total de potência de todos os carros da JAC",CALC_SUM
+"qual a soma de portas dos carros da Peugeot?",CALC_SUM
+"dê-me a soma total de assentos dos carros da Renault",CALC_SUM
+"some os valores de potência de todos os carros 2.0 turbo",CALC_SUM
+"quantos carros são conversíveis?",COUNT
+"conte os carros de cor rosa",COUNT
+"qual a quantidade de carros com tração dianteira?",COUNT
+"diga-me quantos carros têm garantia de fábrica",COUNT
+"número de carros com head-up display?",COUNT
+"liste todos os carros da marca Mitsubishi",LIST_ALL
+"mostre-me os carros com sistema de som premium",LIST_ALL
+"exiba os carros da marca Subaru",LIST_ALL
+"quais carros têm carregador de celular por indução?",LIST_ALL
+"liste os veículos com motor V8",LIST_ALL
+"qual o carro com a menor potência de motor em oferta?",FIND_MIN
+"encontre o carro com a menor potência à venda",FIND_MIN
+"qual veículo tem a menor potência disponível?",FIND_MIN
+"mostre o carro com a menor potência em nosso showroom",FIND_MIN
+"identifique o carro com a menor potência para compra",FIND_MIN
+"qual a média de potência dos carros conversíveis?",CALC_AVG
+"calcule a média de quilometragem dos carros de cor rosa",CALC_AVG
+"qual o consumo médio dos carros com motor V8?",CALC_AVG
+"diga-me a média de potência dos carros com garantia de fábrica",CALC_AVG
+"qual a média de assentos dos carros da Mitsubishi?",CALC_AVG
+"qual o carro com a maior potência de motor em oferta?",FIND_MAX
+"encontre o carro com a maior potência à venda",FIND_MAX
+"qual veículo tem a maior potência disponível?",FIND_MAX
+"mostre o carro com a maior potência em nosso showroom",FIND_MAX
+"identifique o carro com a maior potência para compra",FIND_MAX
+"agrupe por tipo de iluminação e conte a quantidade",GROUP_COUNT
+"qual a contagem de carros por faixa de consumo de combustível?",GROUP_COUNT
+"mostre a distribuição de carros por tipo de volante",GROUP_COUNT
+"para cada modelo, qual a média de preço?",GROUP_COUNT
+"agrupe por tipo de garantia e mostre a contagem",GROUP_COUNT
+"qual o carro com a quilometragem mais alta para pronta entrega?",FIND_MAX_MILEAGE
+"encontre o veículo com a maior quilometragem à venda",FIND_MAX_MILEAGE
+"qual carro tem o odômetro mais alto para compra imediata?",FIND_MAX_MILEAGE
+"mostre o carro mais rodado disponível para compra",FIND_MAX_MILEAGE
+"identifique o veículo com a maior quilometragem em oferta",FIND_MAX_MILEAGE
+"qual o carro com a quilometragem mais baixa para pronta entrega?",FIND_MIN_MILEAGE
+"encontre o veículo com a menor quilometragem à venda",FIND_MIN_MILEAGE
+"qual carro tem o odômetro mais baixo para compra imediata?",FIND_MIN_MILEAGE
+"mostre o carro menos rodado disponível para compra",FIND_MIN_MILEAGE
+"identifique o veículo com a menor quilometragem em oferta",FIND_MIN_MILEAGE
+"some a quilometragem de todos os carros da Mitsubishi",CALC_SUM
+"calcule o total de potência de todos os carros da Subaru",CALC_SUM
+"qual a soma de portas dos carros da Citroën?",CALC_SUM
+"dê-me a soma total de assentos dos carros da JAC",CALC_SUM
+"some os valores de potência de todos os carros V8",CALC_SUM
+"quantos carros são de luxo?",COUNT
+"conte os carros de cor bege",COUNT
+"qual a quantidade de carros com tração traseira?",COUNT
+"diga-me quantos carros têm revisões em dia",COUNT
+"número de carros com painel digital?",COUNT
+"liste todos os carros da marca Land Rover",LIST_ALL
+"mostre-me os carros com acabamento em madeira",LIST_ALL
+"exiba os carros da marca Jaguar",LIST_ALL
+"quais carros têm piloto automático adaptativo?",LIST_ALL
+"liste os veículos com motor W12",LIST_ALL
+"qual o carro com a menor potência de motor na categoria de luxo?",FIND_MIN
+"encontre o carro de luxo menos potente",FIND_MIN
+"qual veículo de luxo tem a menor potência?",FIND_MIN
+"mostre o carro de luxo com a menor força de motor",FIND_MIN
+"identifique o carro de luxo com a menor potência",FIND_MIN
+"qual a média de potência dos carros de luxo?",CALC_AVG
+"calcule a média de quilometragem dos carros de cor bege",CALC_AVG
+"qual o consumo médio dos carros com motor W12?",CALC_AVG
+"diga-me a média de potência dos carros com revisões em dia",CALC_AVG
+"qual a média de assentos dos carros da Land Rover?",CALC_AVG
+"qual o carro com a maior potência de motor na categoria de luxo?",FIND_MAX
+"encontre o carro de luxo mais potente",FIND_MAX
+"qual veículo de luxo tem a maior potência?",FIND_MAX
+"mostre o carro de luxo com a maior força de motor",FIND_MAX
+"identifique o carro de luxo com a maior potência",FIND_MAX
+"agrupe por tipo de acabamento interno e conte a quantidade",GROUP_COUNT
+"qual a contagem de carros por faixa de emissão de CO2?",GROUP_COUNT
+"mostre a distribuição de carros por tipo de sistema de som",GROUP_COUNT
+"para cada marca de luxo, qual a potência média?",GROUP_COUNT
+"agrupe por tipo de piloto automático e mostre a contagem",GROUP_COUNT
+"qual o carro de luxo com a quilometragem mais alta?",FIND_MAX_MILEAGE
+"encontre o veículo de luxo mais rodado",FIND_MAX_MILEAGE
+"qual carro de luxo tem o odômetro mais alto?",FIND_MAX_MILEAGE
+"mostre o carro de luxo mais viajado",FIND_MAX_MILEAGE
+"identifique o veículo de luxo com a maior quilometragem",FIND_MAX_MILEAGE
+"qual o carro de luxo com a quilometragem mais baixa?",FIND_MIN_MILEAGE
+"encontre o veículo de luxo menos rodado",FIND_MIN_MILEAGE
+"qual carro de luxo tem o odômetro mais baixo?",FIND_MIN_MILEAGE
+"mostre o carro de luxo menos viajado",FIND_MIN_MILEAGE
+"identifique o veículo de luxo com a menor quilometragem",FIND_MIN_MILEAGE
+"some a quilometragem de todos os carros da Land Rover",CALC_SUM
+"calcule o total de potência de todos os carros da Jaguar",CALC_SUM
+"qual a soma de portas dos carros de luxo?",CALC_SUM
+"dê-me a soma total de assentos dos carros de luxo",CALC_SUM
+"some os valores de potência de todos os carros com motor W12",CALC_SUM
