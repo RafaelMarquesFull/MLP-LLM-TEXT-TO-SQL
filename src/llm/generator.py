@@ -88,7 +88,7 @@ def generate_sql_query(question: str, intent: str) -> str:
     
     try:
         response = client.chat.completions.create(
-            model="llama3.2-vision:11b-turbo", 
+            model=os.getenv("OPENAI_API_MODEL"), 
             messages=[
                 {"role": "system", "content": "Você é um especialista em gerar consultas SQLite guiado por um classificador de intenção e um schema de banco de dados."},
                 {"role": "user", "content": prompt}

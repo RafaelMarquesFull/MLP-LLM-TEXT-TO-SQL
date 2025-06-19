@@ -31,8 +31,9 @@ Este projeto está configurado para usar Dev Containers, o que simplifica drasti
 
  - Clone o repositório:
 
-        git clone <url-do-seu-repositorio>
-        cd <nome-do-repositorio>
+        git clone https://github.com/RafaelMarquesFull/MLP-LLM-TEXT-TO-SQL
+        
+        cd MLP-LLM-TEXT-TO-SQL
 
 - Abra no VS Code:
 Abra a pasta do projeto no Visual Studio Code.
@@ -50,6 +51,16 @@ Altere o arquivo chamado ``.env_exemple`` na raiz do projeto para ``.env``.
 Adicione sua chave de API da do seu modelo compativel com OPENAI da seguinte forma ou alter se ja existir no arquivo:
 
     OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+Adicione o modelo LLM que deseja usar:
+
+    OPENAI_API_MODEL="llama3.2-vision:11b-turbo"
+
+    
+- OBS: 
+    O modelo LLM utilizado nesse projeto voce pode encontrar em:
+    [RaillsAI - LLMs for Production](https://www.raillsai.com)
+
 
 ### 🛠️ Utilizando as Ferramentas
 O projeto é executado através de uma única interface de linha de comando. Para iniciá-la, abra um terminal dentro do VS Code (que já estará no ambiente do Dev Container) e execute:
