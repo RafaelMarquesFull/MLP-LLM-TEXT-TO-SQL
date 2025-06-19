@@ -61,6 +61,7 @@ Adicione o modelo LLM que deseja usar:
     O modelo LLM utilizado nesse projeto voce pode encontrar em:
     [RaillsAI - LLMs for Production](https://www.raillsai.com)
 
+    > ⚠️ **IMPORTANTE**: FOI DEIXADO UM MODELO DEFAULT EM `env_exemple` PARA TESTES
 
 ### 🛠️ Utilizando as Ferramentas
 O projeto é executado através de uma única interface de linha de comando. Para iniciá-la, abra um terminal dentro do VS Code (que já estará no ambiente do Dev Container) e execute:
