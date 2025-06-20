@@ -95,18 +95,20 @@ No menu principal, digite perguntar.
 
 O sistema solicitará que você insira a sua pergunta.
 
-Digite a ``pergunta`` e pressione Enter.
+Digite a ``perguntar`` e pressione Enter:
+    
+    perguntar
 
 Exemplos de Perguntas:
 
 > perguntar
-   -> Digite o valor para 'pergunta': quantos carros da audi existem?
+   -> Digite o valor para 'perguntar': quantos carros da audi existem?
 
 > perguntar
-   -> Digite o valor para 'pergunta': qual o preço médio dos carros automáticos do tipo suv?
+   -> Digite o valor para 'perguntar': qual o preço médio dos carros automáticos do tipo suv?
 
 > perguntar
-   -> Digite o valor para 'pergunta': mostre os 5 carros mais caros.
+   -> Digite o valor para 'perguntar': mostre os 5 carros mais caros.
 
 Para sair da aplicação, digite sair.
 

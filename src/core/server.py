@@ -15,7 +15,7 @@ from    src.database.populate_db  import create_database as tool_populate_db
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 MODELS_DIR   = PROJECT_ROOT / "models"
 DATA_DIR     = PROJECT_ROOT / "data"
-DB_PATH      = DATA_DIR / "automobiles.db"
+DB_PATH      = DATA_DIR     / "automobiles.db"
 
 class FastMCP:
     
@@ -75,7 +75,7 @@ async def app_lifespan(server: FastMCP) -> AsyncIterator[AppContext]:
     if os.getenv("OPENAI_API_KEY"):
         
         context.openai_available = True
-        print("   ✅ Chave da API da OpenAI encontrada.")
+        print("   ✅ Chave de API compativel com OpenAI encontrada.")
         
     else:
         print("   ⚠️ AVISO: Chave 'OPENAI_API_KEY' não encontrada.")
