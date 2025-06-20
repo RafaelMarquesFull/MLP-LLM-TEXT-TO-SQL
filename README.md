@@ -54,7 +54,7 @@ Adicione sua chave de API da do seu modelo compativel com OPENAI da seguinte for
 
 Adicione o modelo LLM que deseja usar:
 
-    OPENAI_API_MODEL="llama3.2-vision:11b-turbo"
+    OPENAI_API_MODEL="O MODELO DE SUA PREFERENCIA"
 
     
 - OBS: 
